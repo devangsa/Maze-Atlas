@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.VerySimpleMaze\\AtlasCopco.Maze.SimpleMaze.csproj",
-      "projectName": "AtlasCopco.Maze.SimpleMaze",
-      "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.VerySimpleMaze\\AtlasCopco.Maze.SimpleMaze.csproj",
+      "projectUniqueName": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\AtlasCopco.Maze.Main.csproj",
+      "projectName": "AtlasCopco.Maze.Main",
+      "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\AtlasCopco.Maze.Main.csproj",
       "packagesPath": "C:\\Users\\DGURUSAM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.VerySimpleMaze\\obj\\",
+      "outputPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

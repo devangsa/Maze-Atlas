@@ -2,7 +2,7 @@
 
 namespace AtlasCopco.Maze.VerySimpleMaze
 {
-    public class VerySimpleMaze
+    public class SimpleMaze
     {
     }
 }

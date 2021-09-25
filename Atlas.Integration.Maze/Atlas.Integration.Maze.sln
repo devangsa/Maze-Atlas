@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasCopco.Integration.Maze", "AtlasCopco.Integration.Maze.csproj", "{D64D2944-490E-45E0-BD9D-02DFD44E74FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtlasCopco.Integration.Maze", "AtlasCopco.Integration.Maze.csproj", "{D64D2944-490E-45E0-BD9D-02DFD44E74FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasCopco.Maze.VerySimpleMaze", "..\AtlasCopco.Maze.VerySimpleMaze\AtlasCopco.Maze.VerySimpleMaze.csproj", "{761B6306-B1D7-4873-BADD-8A7BCF885317}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtlasCopco.Maze.SimpleMaze", "..\AtlasCopco.Maze.VerySimpleMaze\AtlasCopco.Maze.SimpleMaze.csproj", "{761B6306-B1D7-4873-BADD-8A7BCF885317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasCopco.Maze.Main", "..\AtlasCopco.Maze.Main\AtlasCopco.Maze.Main.csproj", "{8C7C36F4-8C0C-4531-AE46-550E05EF5F1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{761B6306-B1D7-4873-BADD-8A7BCF885317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{761B6306-B1D7-4873-BADD-8A7BCF885317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{761B6306-B1D7-4873-BADD-8A7BCF885317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C7C36F4-8C0C-4531-AE46-550E05EF5F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7C36F4-8C0C-4531-AE46-550E05EF5F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7C36F4-8C0C-4531-AE46-550E05EF5F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7C36F4-8C0C-4531-AE46-550E05EF5F1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
