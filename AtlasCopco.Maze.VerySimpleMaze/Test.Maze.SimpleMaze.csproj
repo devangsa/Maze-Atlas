@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Atlas.Integration.Maze\Test.Integration.Maze.csproj" />
+    <ProjectReference Include="..\AtlasCopco.Maze.Main\Test.Maze.Main.csproj" />
+  </ItemGroup>
+
+TestTest</Project>

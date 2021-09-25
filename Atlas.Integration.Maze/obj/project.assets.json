@@ -186,9 +186,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\AtlasCopco.Integration.Maze.csproj",
-      "projectName": "AtlasCopco.Integration.Maze",
-      "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\AtlasCopco.Integration.Maze.csproj",
+      "projectUniqueName": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\Test.Integration.Maze.csproj",
+      "projectName": "Test.Integration.Maze",
+      "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\Test.Integration.Maze.csproj",
       "packagesPath": "C:\\Users\\DGURUSAM\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\obj\\",
       "projectStyle": "PackageReference",

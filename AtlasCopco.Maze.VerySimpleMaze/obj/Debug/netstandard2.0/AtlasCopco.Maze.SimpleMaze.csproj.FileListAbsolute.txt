@@ -1,0 +1,4 @@
+C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.VerySimpleMaze\obj\Debug\netstandard2.0\AtlasCopco.Maze.SimpleMaze.csprojAssemblyReference.cache
+C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.VerySimpleMaze\obj\Debug\netstandard2.0\AtlasCopco.Maze.SimpleMaze.AssemblyInfoInputs.cache
+C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.VerySimpleMaze\obj\Debug\netstandard2.0\AtlasCopco.Maze.SimpleMaze.AssemblyInfo.cs
+C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.VerySimpleMaze\obj\Debug\netstandard2.0\AtlasCopco.Maze.SimpleMaze.csproj.CoreCompileInputs.cache

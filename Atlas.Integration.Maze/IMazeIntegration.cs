@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Atlas.Integration.Maze
+namespace Test.Integration.Maze
 {  
         /// <summary>
         /// Used for integrating with external Treasure Adventure Emulators.

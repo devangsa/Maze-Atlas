@@ -1,0 +1,9 @@
+C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.Main\bin\Debug\netstandard2.0\AtlasCopco.Maze.Main.deps.json
+C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.Main\bin\Debug\netstandard2.0\AtlasCopco.Maze.Main.dll
+C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.Main\bin\Debug\netstandard2.0\AtlasCopco.Maze.Main.pdb
+C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.Main\obj\Debug\netstandard2.0\AtlasCopco.Maze.Main.csprojAssemblyReference.cache
+C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.Main\obj\Debug\netstandard2.0\AtlasCopco.Maze.Main.AssemblyInfoInputs.cache
+C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.Main\obj\Debug\netstandard2.0\AtlasCopco.Maze.Main.AssemblyInfo.cs
+C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.Main\obj\Debug\netstandard2.0\AtlasCopco.Maze.Main.csproj.CoreCompileInputs.cache
+C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.Main\obj\Debug\netstandard2.0\AtlasCopco.Maze.Main.dll
+C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.Main\obj\Debug\netstandard2.0\AtlasCopco.Maze.Main.pdb

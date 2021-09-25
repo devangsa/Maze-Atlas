@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AtlasCopco.Maze.Main
+namespace Test.Maze.Main
 {
     public interface IMazeRoomTrap
     {

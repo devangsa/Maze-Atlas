@@ -25,6 +25,26 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Test.Integration.Maze/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Test.Integration.Maze.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Test.Integration.Maze.dll": {}
+        }
+      },
+      "Test.Maze.Main/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Test.Maze.Main.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Test.Maze.Main.dll": {}
+        }
       }
     }
   },
@@ -172,11 +192,23 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Test.Integration.Maze/1.0.0": {
+      "type": "project",
+      "path": "../Atlas.Integration.Maze/Test.Integration.Maze.csproj",
+      "msbuildProject": "../Atlas.Integration.Maze/Test.Integration.Maze.csproj"
+    },
+    "Test.Maze.Main/1.0.0": {
+      "type": "project",
+      "path": "../AtlasCopco.Maze.Main/Test.Maze.Main.csproj",
+      "msbuildProject": "../AtlasCopco.Maze.Main/Test.Maze.Main.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "Test.Integration.Maze >= 1.0.0",
+      "Test.Maze.Main >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -186,9 +218,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.VerySimpleMaze\\AtlasCopco.Maze.SimpleMaze.csproj",
-      "projectName": "AtlasCopco.Maze.SimpleMaze",
-      "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.VerySimpleMaze\\AtlasCopco.Maze.SimpleMaze.csproj",
+      "projectUniqueName": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.VerySimpleMaze\\Test.Maze.SimpleMaze.csproj",
+      "projectName": "Test.Maze.SimpleMaze",
+      "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.VerySimpleMaze\\Test.Maze.SimpleMaze.csproj",
       "packagesPath": "C:\\Users\\DGURUSAM\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.VerySimpleMaze\\obj\\",
       "projectStyle": "PackageReference",
@@ -212,7 +244,14 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\Test.Integration.Maze.csproj": {
+              "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\Test.Integration.Maze.csproj"
+            },
+            "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\Test.Maze.Main.csproj": {
+              "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\Test.Maze.Main.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

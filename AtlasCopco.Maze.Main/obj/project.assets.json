@@ -186,9 +186,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\AtlasCopco.Maze.Main.csproj",
-      "projectName": "AtlasCopco.Maze.Main",
-      "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\AtlasCopco.Maze.Main.csproj",
+      "projectUniqueName": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\Test.Maze.Main.csproj",
+      "projectName": "Test.Maze.Main",
+      "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\Test.Maze.Main.csproj",
       "packagesPath": "C:\\Users\\DGURUSAM\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\obj\\",
       "projectStyle": "PackageReference",

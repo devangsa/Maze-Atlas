@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AtlasCopco.Maze.Main
+namespace Test.Maze.Main
 {    /// <summary>
      /// Exposes basic features of a maze.
      /// </summary>

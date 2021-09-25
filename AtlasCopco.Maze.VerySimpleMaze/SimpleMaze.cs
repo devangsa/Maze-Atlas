@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AtlasCopco.Maze.VerySimpleMaze
+namespace Test.Maze.VerySimpleMaze
 {
     public class SimpleMaze
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "klEwa12DhX6kQ8jNMtmMxGGTVUttlUHEu9HZDOsK93E5t4vMeIBPLpHc1Zsys2v64lCXd1UX9wWj2vZpfrjx/Q==",
+  "dgSpecHash": "VikiS/YnU9BSXF9dBfEN2ty35+31RParXIvVmmWs9KKJI1qxfNJfRrt1+EjZlz55QAfp9/br2J6bQIMabPvBHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\AtlasCopco.Maze.Main.csproj",
+  "projectFilePath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\Test.Maze.Main.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DGURUSAM\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\DGURUSAM\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
