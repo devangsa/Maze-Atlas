@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZvgXxvaVy4tE5IzozGsH9Rrqe2Cm66eOx248qcgFqd/YJSQIWvsZvph9ik0QaVRAsBZnBFkNUuZTb4iVm36vSw==",
+  "dgSpecHash": "CXhG+roeXGGm639uDczn/gBxBR0iIdX8v9zEWYOn+7EFXTKpwpJ+TGph455NF3ALWu6zZdz/OY14Me6b5evO4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.VerySimpleMaze\\Test.Maze.SimpleMaze.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DGURUSAM\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\DGURUSAM\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\DGURUSAM\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\DGURUSAM\\.nuget\\packages\\test.integration.maze\\1.0.0\\test.integration.maze.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

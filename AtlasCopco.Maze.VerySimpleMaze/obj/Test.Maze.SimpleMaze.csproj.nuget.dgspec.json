@@ -4,69 +4,6 @@
     "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.VerySimpleMaze\\Test.Maze.SimpleMaze.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\Test.Integration.Maze.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\Test.Integration.Maze.csproj",
-        "projectName": "Test.Integration.Maze",
-        "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\Test.Integration.Maze.csproj",
-        "packagesPath": "C:\\Users\\DGURUSAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\DGURUSAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://vcc-grip.pkgs.visualstudio.com/_packaging/GRIPNugetFeed/nuget/v3/index.json": {},
-          "https://volvocargroup.pkgs.visualstudio.com/_packaging/Nuget-DSPAMDM-Private/nuget/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
-          "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\Test.Maze.Main.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -160,9 +97,6 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\Test.Integration.Maze.csproj": {
-                "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\Test.Integration.Maze.csproj"
-              },
               "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\Test.Maze.Main.csproj": {
                 "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\Test.Maze.Main.csproj"
               }
@@ -184,6 +118,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Test.Integration.Maze": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

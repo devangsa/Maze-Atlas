@@ -7,9 +7,9 @@
     <Description>Used for integrating with external Treasure Adventure Emulators.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Test.Integration.Maze</PackageId>
-    <Authors>Test.Integration.Maze</Authors>
-    <Company>Test.Integration.Maze</Company>
-    <Product>Test.Integration.Maze</Product>
+    <Authors>Devarajan.Gurusamy</Authors>
+    <Company>Devarajan.Gurusamy</Company>
+    <Product>Devarajan.Gurusamy(Test project for Altas)</Product>
   </PropertyGroup>
 
 </Project>

@@ -5,8 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Atlas.Integration.Maze\Test.Integration.Maze.csproj" />
+    <PackageReference Include="Test.Integration.Maze" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\AtlasCopco.Maze.Main\Test.Maze.Main.csproj" />
   </ItemGroup>
 
-TestTest</Project>
+</Project>

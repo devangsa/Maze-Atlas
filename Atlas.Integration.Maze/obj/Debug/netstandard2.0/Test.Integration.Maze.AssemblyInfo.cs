@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Test.Integration.Maze")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Devarajan.Gurusamy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Used for integrating with external Treasure Adventure Emulators.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Test.Integration.Maze")]
+[assembly: System.Reflection.AssemblyProductAttribute("Devarajan.Gurusamy(Test project for Altas)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Test.Integration.Maze")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

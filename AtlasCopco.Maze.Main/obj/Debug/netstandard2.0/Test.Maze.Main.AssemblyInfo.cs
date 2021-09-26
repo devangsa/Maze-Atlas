@@ -11,11 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Test.Maze.Main")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Devarajan.Gurusamy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Exposes basic features of a maze.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Test.Maze.Main")]
+[assembly: System.Reflection.AssemblyProductAttribute("Devarajan.Gurusamy(Test project for Altas)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Test.Maze.Main")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

@@ -27,13 +27,12 @@
         }
       },
       "Test.Integration.Maze/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "type": "package",
         "compile": {
-          "bin/placeholder/Test.Integration.Maze.dll": {}
+          "lib/netstandard2.0/Test.Integration.Maze.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Test.Integration.Maze.dll": {}
+          "lib/netstandard2.0/Test.Integration.Maze.dll": {}
         }
       },
       "Test.Maze.Main/1.0.0": {
@@ -194,9 +193,16 @@
       ]
     },
     "Test.Integration.Maze/1.0.0": {
-      "type": "project",
-      "path": "../Atlas.Integration.Maze/Test.Integration.Maze.csproj",
-      "msbuildProject": "../Atlas.Integration.Maze/Test.Integration.Maze.csproj"
+      "sha512": "OdvrjKYjvDlAMZPfqyX0sm0VQoH8ldz26d0Sq4geHyeSIYGJg5I0UHYmOvROOBUKLzxFChLOnJAv78BhyRoEIA==",
+      "type": "package",
+      "path": "test.integration.maze/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Test.Integration.Maze.dll",
+        "test.integration.maze.1.0.0.nupkg.sha512",
+        "test.integration.maze.nuspec"
+      ]
     },
     "Test.Maze.Main/1.0.0": {
       "type": "project",
@@ -245,9 +251,6 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\Test.Integration.Maze.csproj": {
-              "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\Atlas.Integration.Maze\\Test.Integration.Maze.csproj"
-            },
             "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\Test.Maze.Main.csproj": {
               "projectPath": "C:\\Users\\DGURUSAM\\source\\repos\\Maze-Atlas\\AtlasCopco.Maze.Main\\Test.Maze.Main.csproj"
             }
@@ -269,6 +272,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Test.Integration.Maze": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [
