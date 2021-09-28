@@ -2,7 +2,7 @@
 {
     using System;
     using Test.Maze.Main;
-    
+
     public class SimpleLocationGenerator : ILocationGenerator
     {
         public Location GenerateEdgeLocation(int size)

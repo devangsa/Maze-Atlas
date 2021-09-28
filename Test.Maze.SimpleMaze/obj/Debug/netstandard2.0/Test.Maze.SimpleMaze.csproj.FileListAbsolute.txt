@@ -10,12 +10,3 @@ C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.VerySimpleMaze\bin\Deb
 C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.VerySimpleMaze\obj\Debug\netstandard2.0\Test.Maze.SimpleMaze.csproj.CopyComplete
 C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.VerySimpleMaze\obj\Debug\netstandard2.0\Test.Maze.SimpleMaze.dll
 C:\Users\DGURUSAM\source\repos\Maze-Atlas\AtlasCopco.Maze.VerySimpleMaze\obj\Debug\netstandard2.0\Test.Maze.SimpleMaze.pdb
-C:\Users\DGURUSAM\source\repos\Maze-Atlas\Test.Maze.SimpleMaze\bin\Debug\netstandard2.0\Test.Maze.SimpleMaze.deps.json
-C:\Users\DGURUSAM\source\repos\Maze-Atlas\Test.Maze.SimpleMaze\bin\Debug\netstandard2.0\Test.Maze.SimpleMaze.dll
-C:\Users\DGURUSAM\source\repos\Maze-Atlas\Test.Maze.SimpleMaze\bin\Debug\netstandard2.0\Test.Maze.SimpleMaze.pdb
-C:\Users\DGURUSAM\source\repos\Maze-Atlas\Test.Maze.SimpleMaze\obj\Debug\netstandard2.0\Test.Maze.SimpleMaze.csprojAssemblyReference.cache
-C:\Users\DGURUSAM\source\repos\Maze-Atlas\Test.Maze.SimpleMaze\obj\Debug\netstandard2.0\Test.Maze.SimpleMaze.AssemblyInfoInputs.cache
-C:\Users\DGURUSAM\source\repos\Maze-Atlas\Test.Maze.SimpleMaze\obj\Debug\netstandard2.0\Test.Maze.SimpleMaze.AssemblyInfo.cs
-C:\Users\DGURUSAM\source\repos\Maze-Atlas\Test.Maze.SimpleMaze\obj\Debug\netstandard2.0\Test.Maze.SimpleMaze.csproj.CoreCompileInputs.cache
-C:\Users\DGURUSAM\source\repos\Maze-Atlas\Test.Maze.SimpleMaze\obj\Debug\netstandard2.0\Test.Maze.SimpleMaze.dll
-C:\Users\DGURUSAM\source\repos\Maze-Atlas\Test.Maze.SimpleMaze\obj\Debug\netstandard2.0\Test.Maze.SimpleMaze.pdb

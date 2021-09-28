@@ -12,10 +12,10 @@
     {
         private const int MinimalMazeSize = 3;
 
-        private int _size;
-        private ILocationGenerator generator;
-        private SimpleMazeRoomFactory roomFactory;
-        private IList<int> usedIds;
+        private int size;
+        private  ILocationGenerator generator;
+        private  SimpleMazeRoomFactory roomFactory;
+        private  IList<int> usedIds;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="SimpleMazeFactory"/> class.
@@ -59,34 +59,34 @@
                     "The stage edge cannot be smaller than {0} elements.".InjectInvariant(MinimalMazeSize), nameof(size));
             }
 
-            this._size = size;
+            this.size = size;
             var maze = new IMazeRoom[size, size]
                 .AddRoom(this.BuildEntrance())
                 .AddRoom(this.BuildTreasury())
                 .AddRooms(this.BuildRooms());
 
-            return new SimpleMaze(maze, this.usedIds[0].AsLocation(this._size));
+            return new SimpleMaze(maze, this.usedIds[0].AsLocation(this.size));
         }
 
         private IMazeRoom BuildEntrance()
         {
-            var entLoc = this.generator.GenerateEdgeLocation(this._size).Tee(this.AddUsedId);
-            return this.roomFactory.BuildEntrance(entLoc.AsRoomId(this._size));
+            var entLoc = this.generator.GenerateEdgeLocation(this.size).Tee(this.AddUsedId);
+            return this.roomFactory.BuildEntrance(entLoc.AsRoomId(this.size));
         }
 
         private IMazeRoom BuildTreasury()
         {
-            var loc = this.generator.GenerateInnerLocation(this._size).Tee(this.AddUsedId);
-            return this.roomFactory.BuildTreasury(loc.AsRoomId(this._size));
+            var loc = this.generator.GenerateInnerLocation(this.size).Tee(this.AddUsedId);
+            return this.roomFactory.BuildTreasury(loc.AsRoomId(this.size));
         }
 
         private IEnumerable<IMazeRoom> BuildRooms()
         {
-            for (var i = 0; i < this._size; i++)
+            for (var i = 0; i < this.size; i++)
             {
-                for (var j = 0; j < this._size; j++)
+                for (var j = 0; j < this.size; j++)
                 {
-                    var roomId = new Location(i, j).AsRoomId(this._size);
+                    var roomId = new Location(i, j).AsRoomId(this.size);
                     if (!this.usedIds.Contains(roomId))
                     {
                         yield return this.roomFactory.BuildRandomRoom(roomId);
@@ -97,7 +97,7 @@
 
         private void AddUsedId(Location location)
         {
-            this.usedIds.Add(location.AsRoomId(this._size));
+            this.usedIds.Add(location.AsRoomId(this.size));
         }
     }
 }

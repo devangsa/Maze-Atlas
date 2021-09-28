@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Test.Maze.Main
+﻿namespace Test.Maze.Main
 {
     public interface IMazeRoomTrap
     {

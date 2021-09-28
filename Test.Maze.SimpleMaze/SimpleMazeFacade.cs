@@ -1,16 +1,16 @@
 ﻿using System;
 using Test.Integration.Maze;
 using Test.Maze.Main;
- 
+
 
 namespace Test.Maze.SimpleMaze
 {
     public class SimpleMazeFacade : IMazeIntegration
     {
         private IMaze maze;
-        private IMazeFactory mazeFactory;
+        private  IMazeFactory mazeFactory;
 
-        public  SimpleMazeFacade() : this(new  SimpleMazeFactory())
+        public SimpleMazeFacade() : this(new SimpleMazeFactory())
         {
         }
 

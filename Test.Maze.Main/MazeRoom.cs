@@ -3,13 +3,12 @@
     using System.Collections.Generic;
     using System.Globalization;
     using System.Linq;
-    using Test.Maze.Main;
 
     /// <summary>
     /// Exposes basic features of a maze room the player can get in to.
     /// </summary>
     public abstract class MazeRoom : IMazeRoom
-    {        
+    {
         protected string description;
 
         /// <summary>
@@ -20,18 +19,18 @@
         /// <param name="isEntrance">A variable indicating whether or not a room is an entrance.</param>
         /// <param name="hasTreasure">A variable indicating whether or not a room has treasure.</param>
         /// <param name="defaultAction">Default action of a room.</param>
-        public MazeRoom(int roomId, 
+        public MazeRoom(int roomId,
                         string description,
-                        bool isEntrance = false, 
-                        bool hasTreasure = false, 
-                        string defaultAction = "Move to other rooms") 
+                        bool isEntrance = false,
+                        bool hasTreasure = false,
+                        string defaultAction = "Move to other rooms")
         {
             this.RoomId = roomId;
             this.description = description;
             this.IsEntrance = isEntrance;
             this.HasTreasure = hasTreasure;
 
-            this.Traps = new List<IMazeRoomTrap>();            
+            this.Traps = new List<IMazeRoomTrap>();
             this.Actions = new List<string>();
             this.Actions.Add(defaultAction);
         }

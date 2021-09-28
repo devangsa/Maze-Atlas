@@ -12,7 +12,7 @@
         /// <param name="roomId"></param>
         /// <param name="description"></param>
         /// <param name="trap"></param>
-        public MazeTrapRoom(int roomId, string description, IMazeRoomTrap trap) : base(roomId, description) 
+        public MazeTrapRoom(int roomId, string description, IMazeRoomTrap trap) : base(roomId, description)
         {
             this.Traps.Add(trap);
         }
@@ -37,8 +37,8 @@
         /// <summary>
         /// Gets the room description.
         /// </summary>
-        public override string GetDescription() 
-        {            
+        public override string GetDescription()
+        {
             if (this.trapFired)
             {
                 var trapDescription = this.Traps.First().BehaviorDescription;

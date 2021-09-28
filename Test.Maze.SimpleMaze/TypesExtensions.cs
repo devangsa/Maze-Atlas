@@ -7,7 +7,7 @@
     /// <summary>
     /// Extension methods for Core Maze library types.
     /// </summary>
-    public static class TypesExtensions 
+    public static class TypesExtensions
     {
         /// <summary>
         /// Transforms an instance of the <see cref="Location"/> class 

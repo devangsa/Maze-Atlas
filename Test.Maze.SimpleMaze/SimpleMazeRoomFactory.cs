@@ -12,9 +12,9 @@ namespace Test.Maze.SimpleMaze
 
     public class SimpleMazeRoomFactory
     {
-        private IMazeRoomTrapFactory trapFactory;
+        private  IMazeRoomTrapFactory trapFactory;
         private IEnumerable<Type> roomTypes;
-        private Random randomizer;
+        private  Random randomizer;
 
         public SimpleMazeRoomFactory() : this(new SimpleRoomTrapFactory(), new Random())
         {
