@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Exposes basic features of a maze.</Description>
+    <Authors>Devarajan.Gurusamy</Authors>
+    <Company>Devarajan.GurusamyDevarajan.Gurusamy</Company>
+    <Product>Devarajan.Gurusamy(Test project for Altas)</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Test.Integration.Maze" Version="1.0.0" />
+    <PackageReference Include="Test.Maze.Main" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

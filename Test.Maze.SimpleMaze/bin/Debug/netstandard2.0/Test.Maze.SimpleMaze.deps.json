@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Test.Maze.SimpleMaze/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Test.Integration.Maze": "1.0.0",
+          "Test.Maze.Main": "1.0.0"
+        },
+        "runtime": {
+          "Test.Maze.SimpleMaze.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Test.Integration.Maze/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Test.Integration.Maze.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Test.Maze.Main/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Test.Maze.Main.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Test.Maze.SimpleMaze/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Test.Integration.Maze/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OdvrjKYjvDlAMZPfqyX0sm0VQoH8ldz26d0Sq4geHyeSIYGJg5I0UHYmOvROOBUKLzxFChLOnJAv78BhyRoEIA==",
+      "path": "test.integration.maze/1.0.0",
+      "hashPath": "test.integration.maze.1.0.0.nupkg.sha512"
+    },
+    "Test.Maze.Main/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c/0P5mPwstj5oQ1myUj9Uby5GafiBCrf9XEwtnryIXdHZoe8IjRROBQ8mvIR+DmiC6A6MVWUqA17lE5mvWKpDA==",
+      "path": "test.maze.main/1.0.0",
+      "hashPath": "test.maze.main.1.0.0.nupkg.sha512"
+    }
+  }
+}
